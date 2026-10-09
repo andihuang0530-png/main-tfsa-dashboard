@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "NVDA",
+    "personalNote": "AI accelerator leader. Watch concentration and valuation risk.",
+    "targetAllocation": 15,
+    "manualDisabled": false,
+    "addedAt": "2026-05-03T09:00:00"
+  },
+  {
+    "ticker": "TEC.TO",
+    "personalNote": "CAD-traded global technology exposure.",
+    "targetAllocation": 20,
+    "manualDisabled": false,
+    "addedAt": "2026-05-03T09:00:00"
+  },
+  {
+    "ticker": "XQQ.TO",
+    "personalNote": "CAD-hedged NASDAQ 100 sleeve.",
+    "targetAllocation": 20,
+    "manualDisabled": false,
+    "addedAt": "2026-05-03T09:00:00"
+  },
+  {
+    "ticker": "SOXX",
+    "personalNote": "",
+    "targetAllocation": 25,
+    "manualDisabled": false,
+    "addedAt": "2026-05-03T01:36:25"
+  }
+]
