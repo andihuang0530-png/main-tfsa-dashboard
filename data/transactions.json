@@ -1,0 +1,22 @@
+[
+  {
+    "id": "txn-sample-001",
+    "date": "2026-01-09T10:00:00",
+    "ticker": "VFV.TO",
+    "action": "Buy",
+    "shares": 10,
+    "price": 130,
+    "currency": "CAD",
+    "notes": "Sample data for demonstration"
+  },
+  {
+    "id": "txn-sample-002",
+    "date": "2026-02-06T10:00:00",
+    "ticker": "TEC.TO",
+    "action": "Buy",
+    "shares": 15,
+    "price": 42,
+    "currency": "CAD",
+    "notes": "Sample data for demonstration"
+  }
+]
