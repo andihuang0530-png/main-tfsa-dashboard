@@ -1,0 +1,22 @@
+{
+  "accountType": "TFSA",
+  "goal": "long-term investing",
+  "style": "weekly investing / dollar-cost averaging",
+  "investmentAmount": 1000,
+  "investmentCurrency": "CAD",
+  "riskMode": "Balanced",
+  "preferCadEtfs": true,
+  "allowUsdTickers": true,
+  "allowFractionalShares": true,
+  "maxRecommendations": 5,
+  "maxSingleStockAllocation": 20,
+  "maxSingleEtfAllocation": 50,
+  "maxHighRiskStockAllocation": 10,
+  "useTargetAllocationMode": false,
+  "treatOverweightAsHardConstraint": false,
+  "notificationMethod": "None",
+  "llmMode": "Manual copy-to-LLM",
+  "weeklyRunSchedule": "once per week",
+  "fxUsdCad": 1.37,
+  "cashReserveCad": 0
+}
