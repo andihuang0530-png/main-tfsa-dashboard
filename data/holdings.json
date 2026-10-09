@@ -1,0 +1,70 @@
+{
+  "holdings": [
+    {
+      "ticker": "VFV.TO",
+      "name": "Vanguard S&P 500 Index ETF",
+      "type": "CAD ETF",
+      "shares": 10.0,
+      "averageCost": 130.0,
+      "currency": "CAD",
+      "totalInvestedCad": 1300.0,
+      "currentPrice": 140.0,
+      "currentMarketValueCad": 1400.0,
+      "unrealizedGainLossCad": 100.0,
+      "unrealizedGainLossPct": 7.7,
+      "realizedGainLossCad": 0.0,
+      "targetAllocation": 50,
+      "currentActionLabel": "Add",
+      "riskFlags": [],
+      "personalThesis": "Sample data for demonstration.",
+      "notes": "Sample data for demonstration.",
+      "analysis": {
+        "ticker": "VFV.TO",
+        "name": "Vanguard S&P 500 Index ETF",
+        "type": "CAD ETF",
+        "dataStatus": "ok"
+      },
+      "portfolioWeight": 58.3,
+      "differenceFromTarget": 8.3
+    },
+    {
+      "ticker": "TEC.TO",
+      "name": "TD Technology ETF",
+      "type": "CAD ETF",
+      "shares": 15.0,
+      "averageCost": 42.0,
+      "currency": "CAD",
+      "totalInvestedCad": 630.0,
+      "currentPrice": 48.0,
+      "currentMarketValueCad": 720.0,
+      "unrealizedGainLossCad": 90.0,
+      "unrealizedGainLossPct": 14.3,
+      "realizedGainLossCad": 0.0,
+      "targetAllocation": 20,
+      "currentActionLabel": "Hold",
+      "riskFlags": [],
+      "personalThesis": "Sample data for demonstration.",
+      "notes": "Sample data for demonstration.",
+      "analysis": {
+        "ticker": "TEC.TO",
+        "name": "TD Technology ETF",
+        "type": "CAD ETF",
+        "dataStatus": "ok"
+      },
+      "portfolioWeight": 30.0,
+      "differenceFromTarget": 10.0
+    }
+  ],
+  "summary": {
+    "totalPortfolioValueCad": 2120.0,
+    "totalInvestedCad": 1930.0,
+    "unrealizedGainLossCad": 190.0,
+    "realizedGainLossCad": 0.0,
+    "totalReturnPct": 9.8,
+    "topHolding": "VFV.TO",
+    "targetAllocationMode": false,
+    "aboveTargetCount": 0,
+    "trimSellAlertCount": 0,
+    "cashReserveCad": 0.0
+  }
+}
