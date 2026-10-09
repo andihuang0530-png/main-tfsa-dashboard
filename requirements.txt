@@ -1,0 +1,2 @@
+# The MVP uses Python standard library only.
+# Optional future integrations can install packages such as yfinance or feedparser.

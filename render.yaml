@@ -1,0 +1,13 @@
+# Render.com blueprint — one-click deploy of the TFSA dashboard.
+# In Render: New > Blueprint > select this repo, or New > Web Service and use:
+#   Build command: pip install -r requirements.txt
+#   Start command: python3 backend/server.py
+services:
+  - type: web
+    name: main-tfsa-dashboard
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 backend/server.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
