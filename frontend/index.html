@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TFSA Stock and ETF Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">TF</div>
+          <div class="brand-text">
+            <h1>TFSA Research</h1>
+            <p>Local MVP</p>
+          </div>
+          <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-label="Collapse sidebar">‹</button>
+        </div>
+        <nav class="nav" id="nav"></nav>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h2 id="page-title">Recommendation Dashboard</h2>
+            <p id="page-kicker">Personal watchlist and holdings only</p>
+          </div>
+          <div class="topbar-actions">
+            <span class="pill">Mock data</span>
+            <button class="ghost-button" id="refresh-button" type="button">Refresh</button>
+          </div>
+        </header>
+        <section id="app" class="content">
+          <div class="loading">Loading dashboard...</div>
+        </section>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>
